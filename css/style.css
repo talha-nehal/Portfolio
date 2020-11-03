@@ -1,0 +1,115 @@
+#header
+{
+    background-image: url('../img/luca-bravo-ujhKqutt3f0-unsplash.jpg');
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin-top: -8px;
+    margin-left: -8px;
+    padding-right: 18px;
+    padding-bottom: 50px;
+}
+
+.fa-laptop-code
+{
+    color: white;
+    margin-right: 10px;
+
+}
+
+#brand
+{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: 'Archivo', sans-serif;
+    text-transform: uppercase;
+}
+
+#brand:hover
+{
+    color: white;
+}
+
+nav
+{
+    font-family: 'Lato', sans-serif;
+}
+
+ul
+{
+    float: right;
+    margin-top: 30px;
+}
+
+ul li
+{
+    display: inline;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    padding-right: 18px;
+    text-shadow: 1px 1px 4px #3c4444;
+}
+
+a:hover
+{
+    color: #FFDE59;
+    
+}
+
+h1
+{
+    margin-top: 300px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 8px #3c4444;
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    letter-spacing: 8px;
+    color: #FFDE59;
+}
+
+p
+{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #ffde59 0%, #ffb347  51%, #ffde59  100%)}
+
+
+
+/*.btn-grad {background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%)}*/
+.btn-grad {
+   border: 0;
+   margin: 50px auto 0 auto;
+   padding: 12px 30px;
+   font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 23px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; 
+   color: #fff;
+   text-decoration: none;
+ }
+ 
+
+.fa-search
+{
+    margin-right: 10px;
+}
